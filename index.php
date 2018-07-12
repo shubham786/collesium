@@ -33,7 +33,7 @@ $m->SMTPDebug = 2;
 $m->Host = 'smtp.gmail.com';
         
 $m->Username = 'shubhamsengar88@gmail.com';
-$m->Password = 'Shubham0011';
+$m->Password = 'Your password';
 $m->SMTPSecure = 'ssl';
 $m->Port = 465;
 
@@ -62,5 +62,5 @@ $m->AltBody = 'This is alt body';
     }else{
         sender(0);
     }
-
+//D:\xampp\htdocs\1\sdf\PHPMailer\vendor\index.php
 ?>
